@@ -1,0 +1,222 @@
+@import url(../../../stylesheets/application.css);
+@import url(font-awesome.css);
+@import url(../fonts/fontawesome-webfont.woff);
+//@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {   color: #66757f;}
+legend {   color: #66757f;}
+
+body, input, select, textarea, button { 
+    background-color: #f0f0f0; 
+    color: #66757f;
+    font: 14px FontAwesome,Rubik, arial, freesans, clean, sans-serif; 
+    line-height: 1.4; }
+
+tt, code, pre { font-family: Consolas, "Liberation Mono", Courier, monospace; font-size: 12px; }
+
+#content h1, h2,h3 { color: #004b75;}
+
+#header { 
+    //background-color: #2c383d; 
+    background-color: white; 
+    border-bottom: 1px solid #eee;
+    height: 34px; pading-top:24px ;
+    min-height:24px;
+    //background-image: url("../images/hipay-white-yellow.png");
+    background-image: url("../images/hipay-blue.png");
+    background-repeat: no-repeat;
+    background-size: auto 34px;
+    background-position: 10px 2px;
+}
+#header a { color: #6d8995; }
+
+#header {
+    border: none;
+}
+#header h1 {
+    max-height:24px;
+    max-width:200px;
+    display:none
+
+}
+
+#top-menu {
+//    position: fixed;
+    height: 24px;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: #2c383d;
+    color: #6d8995;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);00a5e1
+}
+
+#top-menu li a, #top-menu li button, #top-menu div a ,#top-menu #loggedas {
+    color: #66757f;;
+    display: inline;
+    font-size: 14px;
+    font-weight: 500;
+//    line-height: 1;
+}
+#top-menu li :hover{
+  color:white;
+  text-decoration: none;
+}
+#top-menu li a:before {
+     padding: 0 3px;
+}
+#top-menu li a.home:before {
+    content: "\f015";
+}
+#top-menu a.my-page:before {
+    content: "\f024";
+}
+#top-menu li a.projects:before {
+    content: "\f097";
+}
+#top-menu li a.calendar:before {
+    content: "\f133";
+}
+#top-menu li a.holidays:before {
+    content: "\f109";
+}
+#top-menu li a.people:before {
+    content: "\f0c0";
+}
+#top-menu li a.reports:before {
+    content: "\f0ce";
+}
+#top-menu li a.wkTime:before {
+    content: "\f017";
+}
+
+
+#top-menu li a.administration:before {
+    content: "\f013";
+}
+#top-menu li a.help:before {
+    content: "\f059";
+}
+#top-menu li a.work-time:before {
+    content: "\f017"
+}
+#top-menu li a.my-account:before {
+    content: "\f007"
+}
+#top-menu li a.shady-mode:before {
+    content: "\f131"
+}
+#top-menu li a.logout:before {
+    content: "\f08b"
+}
+
+
+#top-menu li :before{
+    font-family: FontAwesome;
+}
+#main-menu li a, #main-menu .menu-children li a {
+    color: #004b75;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+#main-menu li a.selected, #main-menu li a:hover,#main-menu .menu-children li a:hover  {
+    background: #004b75  none repeat scroll 0 0;
+    border-radius: 3px;
+    color: white;
+}
+
+
+#main-menu li a.new-object {
+    background-color: #004b75;
+    color: white;
+    border-radius: 3px;
+}
+#main-menu .menu-children {
+    border: none;
+}
+
+
+a, a:link, a:visited {
+    color: #00a5e1;
+    text-decoration: none;
+}
+a:hover {
+    color: #004b75;
+    text-decoration: none;
+}
+.icon:before {
+    color: #00a5e1;
+}
+form .icon .icon-check::before {
+    color: #4ee58b;
+}
+
+.icon-reload:before,
+.icon-del:before {
+    color: #ff804c;
+}
+
+.icon-save:before,
+.icon-time-add:before,
+.copy:before{
+    color: #937bff;
+}
+.icon-fav-off:before,
+.icon-fav:before,
+.icon-edit:before {
+    color: #ffba00 ;//gold
+}
+
+.nodata, .warning {
+    background-color: #75787b;
+    border: none;
+    color: white;
+    text-align: center;
+}
+div.flash.notice {
+    background: none;
+    border-color: #ffba00;
+    color: #ffba00;
+}
+
+.odd {
+    background-color: #f0f0f0;
+}
+table.list th {
+    background-color: #bbbcbc;
+}
+table.list tbody tr:hover {
+    background-color: #ffba00;
+}
+
+
+#q {
+    border: medium none;
+    color: #bbbcbc;
+    border-radius: 30px;
+    box-shadow: none;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 10px;
+    text-align: center;
+}
+input.live_search_field {
+    background-color: #bbbcbc;
+    color : #66757f;
+    border: medium none;
+    border-radius: 30px;
+    box-shadow: none;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 20px;
+
+}
+
+div.issue {
+    background: none;
+}

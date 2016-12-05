@@ -1,0 +1,370 @@
+@import url(../../../stylesheets/application.css);
+@import url(font-awesome.css);
+@import url(../fonts/fontawesome-webfont.woff);
+//@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {   color: #66757f;}
+legend {   color: #66757f;}
+label {color :  #004b75;}
+
+body, input, select, textarea, button { 
+    background-color: #ffffff; 
+    color: #004b75;
+    font: 14px FontAwesome,Rubik, arial, freesans, clean, sans-serif; 
+    line-height: 1.4; 
+}
+input  {
+    border: 1px none;
+    border-bottom: 1px solid #004b75;
+}
+select {
+    border: 1px none #004b75;
+    border-bottom: 1px solid #004b75;
+    border-right: 1px solid #004b75;
+}
+button, input[type="button"], input[type="submit"] {
+    border: 1px none;
+    border-radius: 3px;
+    background-color: #00a5e1;
+    color: #ffffff
+}
+
+
+.box {
+    background-color: #ffffff;
+    border: 1px solid #004b75;
+    color: #004b75;
+}
+tt, code, pre { font-family: Consolas, "Liberation Mono", Courier, monospace; font-size: 12px; }
+
+#content h1, h2,h3 { color: #004b75;}
+
+#header { 
+    background-color: white; 
+    border-bottom: 1px solid #eee;
+    height: 34px; pading-top:24px ;
+    min-height:24px;
+    background-image: url("../images/hipay-full-color.png");
+    background-repeat: no-repeat;
+    background-size: auto 34px;
+    background-position: 10px 2px;
+}
+#header a { color: #6d8995; }
+
+#header {
+    border: none;
+}
+#header h1 {
+    max-height:24px;
+    max-width:200px;
+    display:none
+
+}
+
+#top-menu {
+//    position: fixed;
+    height: 24px;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: #2c383d;
+    color: #6d8995;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);00a5e1
+}
+#top-menu li :before{
+    font-family: FontAwesome;
+}
+#top-menu li a, #top-menu li button, #top-menu div a ,#top-menu #loggedas {
+    color: #66757f;;
+    display: inline;
+    font-size: 14px;
+    font-weight: 500;
+//    line-height: 1;
+}
+#top-menu li :hover{
+  color:white;
+  text-decoration: none;
+}
+#top-menu li a:before{
+     padding: 0 3px;
+     font-family: FontAwesome;
+     font-size: 17px
+}
+#top-menu li a.home:before {content: "\f015";}
+#top-menu li a.my-page:before { content: "\f024";}
+#top-menu li a.projects:before{ content: "\f097"}
+#top-menu li a.calendar:before{ content: "\f133"}
+#top-menu li a.holidays:before { content: "\f109"}
+#top-menu li a.people:before { content: "\f0c0"}
+#top-menu li a.reports:before { content: "\f0ce"}
+#top-menu li a.wkTime:before { content: "\f017"}
+#top-menu li a.administration:before { content: "\f013"}
+#top-menu li a.help:before { content: "\f059"}
+#top-menu li a.work-time:before { content: "\f017"}
+#top-menu li a.my-account:before { content: "\f007"}
+#top-menu li a.shady-mode:before { content: "\f131"}
+#top-menu li a.logout:before { content: "\f08b"}
+
+
+#top-menu li :before{
+    font-family: FontAwesome;
+}
+#main-menu li a, #main-menu .menu-children li a {
+    color: #004b75;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+#main-menu li a.selected, #main-menu li a:hover,#main-menu .menu-children li a:hover  {
+    background: #004b75  none repeat scroll 0 0;
+    border-radius: 3px;
+    color: white;
+}
+
+
+#main-menu li a.new-object {
+    background-color: #004b75;
+    color: white;
+    border-radius: 3px;
+}
+#main-menu .menu-children {
+    border: none;
+}
+
+#admin-menu li a:before{
+     padding: 0 5px;
+     font-family: FontAwesome;
+     font-size: 17px
+}
+#admin-menu li a.projects,
+#admin-menu li a.project-aliases,
+#admin-menu li a.users,
+#admin-menu li a.groups,
+#admin-menu li a.roles,
+#admin-menu li a.trackers,
+#admin-menu li a.issue_statuses,
+#admin-menu li a.workflows,
+#admin-menu li a.custom_fields,
+#admin-menu li a.enumerations,
+#admin-menu li a.settings,
+#admin-menu li a.server_authentication,
+#admin-menu li a.agile,
+#admin-menu li a.ldap-sync,
+#admin-menu li a.people,
+#admin-menu li a.view-customizes,
+#admin-menu li a.plugins,
+#admin-menu li a.info {
+    background-image: none;
+    padding-left: 0px;
+}
+#admin-menu li a.projects:before { content: "\f097";color: #ffba00;}
+#admin-menu li a.project-aliases:before { content: "\f021"}
+#admin-menu li a.users:before { content: "\f183"; color: #937bff;}
+#admin-menu li a.groups:before { content: "\f0c0"; color: #937bff;}
+#admin-menu li a.roles:before { content: "\f084"}
+#admin-menu li a.trackers:before { content: "\f198";color: #ffba00;}
+#admin-menu li a.issue_statuses:before { content: "\f024";color: #ffba00;}
+#admin-menu li a.workflows:before { content: "\f0e8"; color: #937bff;}
+#admin-menu li a.custom_fields:before { content: "\f0ca";color: #75787b;}
+#admin-menu li a.enumerations:before { content: "\f026";color: #75787b;}
+#admin-menu li a.settings:before { content: "\f013";color: #79e2d3;}
+#admin-menu li a.server_authentication:before { content: "\f09c";color: #ff804c;}
+#admin-menu li a.agile:before { content: "\f1b8"}
+#admin-menu li a.ldap-sync:before { content: "\f0ec";color: #ff804c;}
+#admin-menu li a.people:before { content: "\f007"; color: #937bff;}
+#admin-menu li a.view-customizes:before { content: "\f085";color: #79e2d3;}
+#admin-menu li a.plugins:before { content: "\f12e";color: #79e2d3;}
+#admin-menu li a.info:before { content: "\f05a";color: #75787b;}
+
+a, a:link, a:visited {
+    color: #00a5e1;
+    text-decoration: none;
+}
+a:hover {
+    color: #004b75;
+    text-decoration: none;
+}
+.icon:before {
+    color: #00a5e1;
+}
+form .icon .icon-check::before {
+    color: #4ee58b;
+}
+
+.icon-reload:before,
+.icon-del:before {
+    color: #ff804c;
+}
+
+.icon-save:before,
+.icon-time-add:before,
+.icon-copy:before{
+    color: #00507f;
+}
+.icon-fav-off:before,
+.icon-fav:before,
+.icon-edit:before {
+    color: #ffba00 ;//gold
+}
+
+.nodata, .warning {
+    background-color: #75787b;
+    border: none;
+    color: white;
+    text-align: center;
+}
+div.flash.notice {
+    background: none;
+    border-color: #ffba00;
+    color: #ffba00;
+}
+
+.odd {
+    background-color: #f0f0f0;
+}
+table.list th {
+    background-color: #ffffff;
+}
+th a, th a:link, th a:visited{
+    //color: #ffffff
+}
+th a:hover {
+    color: #ffba00;
+}
+th a.sort.asc, th a.sort.desc{
+    background-image: none;
+    color: #ffba00;
+}
+th a.sort.asc:before, th a.sort.desc:before {
+    font-family: FontAwesome;
+    font-size: 17px;
+    margin-right: 3px;
+}
+th a.sort.asc:before {
+   content: "\f0de";
+}
+th a.sort.desc:before{
+    content: "\f0dd";
+}
+
+
+table.list tbody tr:hover {
+    background-color: #bbbcbc;
+}
+table.list tbody tr:hover a {
+    color: #004b75;
+} 
+tr.context-menu-selection {
+    background-color: #004b75 !important;
+    color: #ffffff !important;
+}
+tr.context-menu-selection:hover, tr.context-menu-selection:hover a {
+   background-color: #bbbcbc !important;
+   color: #ffffff !important;
+}
+tr.context-menu-selection a {
+    color: #ffba00 !important;
+}
+
+
+#q {
+    border: 1px solid #004b75;
+    color: #004b75;
+    border-radius: 30px;
+    box-shadow: none;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 10px;
+    background-color: #ffffff;
+}
+input.live_search_field {
+    background-color: #ffffff;
+    color : #004b75;
+    border: medium none;
+    border-bottom: 1px solid #004b75;
+    //border-radius: 30px;
+    box-shadow: none;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 20px;
+
+}
+
+div.issue {
+    background: none;
+}
+
+#login-form table {
+    background-color: #ffffff;
+    border: 1px solid #004b75;
+}
+#login-form input[type="text"], #login-form input[type="password"] {
+    border: 1px solid #004b75;
+}
+
+
+#content .tabs ul {
+    border: 1px none ;
+}
+
+#content .tabs ul li {
+    margin-bottom: 0px;
+}
+
+#content .tabs ul li a.selected, #content .tabs ul li a:hover {
+    background-color: #fff;
+    border: 1px solid #004b75;
+    color: #004b75;
+}
+
+#content .tabs ul li a {
+    background-color: #004b75;
+    border: 1px solid #004b75;
+    color: #fff;
+    border-radius: 3px;
+}
+
+h3.version {
+    background-image:none;
+}
+
+div h3:before {
+    font-family: FontAwesome;
+    font-weight: 500;
+    padding: 0 3px;
+}
+
+div.issues h3:before { content: "\f145";}
+div.members h3:before { content: "\f0c0";}
+div.news h3:before { content: "\f1ea";}
+div.projects h3:before { content: "\f097";}
+div.spent_time h3:before { content: "\f017";}
+
+div.issues h3 ,div.members h3, div.news h3, div.projects h3, div.spent_time h3 { 
+    background-image:none;
+    padding-left: 0px;
+}
+
+div#activity dt, #search-results dt {
+    padding-left: 0px;
+}
+dt.issue-closed , dt.issue, dt.issue-edit {
+    background-image:none;
+    padding-left: 0px
+}
+dt.issue-closed:before,dt.issue:before, dt.issue-edit:before {
+    font-family: FontAwesome;
+    font-weight: 500;
+    padding: 0 3px;
+    font-size: 17px;
+}
+
+dt.issue-closed:before { content: "\f14a";}
+dt.issue.closed:before { content: "\f0c8";}
+dt.issue-edit:before { content: "\f044";}
+dt.issue:before { content: "\f096";}
+
