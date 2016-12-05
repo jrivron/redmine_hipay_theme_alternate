@@ -9,18 +9,15 @@ label {color :  #004b75;}
 
 body, input, select, textarea, button { 
     background-color: #ffffff; 
-    color: #004b75;
-    font: 14px FontAwesome,Rubik, arial, freesans, clean, sans-serif; 
-    line-height: 1.4; 
+    font-family: FontAwesome,Rubik, arial, freesans, clean, sans-serif; 
+    font-size: 10px
+    line-height: 1; 
 }
 input  {
-    border: 1px none;
-    border-bottom: 1px solid #004b75;
+    border: 1px solid #9eb1c2;
 }
 select {
-    border: 1px none #004b75;
-    border-bottom: 1px solid #004b75;
-    border-right: 1px solid #004b75;
+    border: 1px solid #9eb1c2;
 }
 button, input[type="button"], input[type="submit"] {
     border: 1px none;
@@ -181,7 +178,6 @@ tt, code, pre { font-family: Consolas, "Liberation Mono", Courier, monospace; fo
 #admin-menu li a.info:before { content: "\f05a";color: #75787b;}
 
 a, a:link, a:visited {
-    color: #00a5e1;
     text-decoration: none;
 }
 a:hover {
