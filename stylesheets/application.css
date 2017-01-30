@@ -395,7 +395,7 @@ tr.even.priority-high2, table.list tbody tr.even.priority-high4:hover {
     color: #990000;
 }
 tr.even.priority-high2 {
-    background: #ffeab2 none repeat scroll 0 0;
+    background: #ffe399 none repeat scroll 0 0;
 }
 tr.priority-high2 a {
     color: #990000;
@@ -407,7 +407,7 @@ tr.odd.priority-high3, table.list tbody tr.odd.priority-high3:hover {
     color: #990000;
 }
 tr.odd.priority-high3 {
-    background: #ffeab2 none repeat scroll 0 0;
+    background: #fff1cc none repeat scroll 0 0;
 }
 tr.even.priority-high3, table.list tbody tr.even.priority-high3:hover {
     color: #990000;
