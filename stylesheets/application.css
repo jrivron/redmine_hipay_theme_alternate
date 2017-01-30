@@ -364,3 +364,79 @@ dt.issue.closed:before { content: "\f0c8";}
 dt.issue-edit:before { content: "\f044";}
 dt.issue:before { content: "\f096";}
 
+tr.odd.priority-highest, table.list tbody tr.odd.priority-highest:hover {
+    color: #990000;
+    font-weight: bold;
+}
+tr.odd.priority-highest {
+    background: #ffba00 none repeat scroll 0 0;
+}
+tr.even.priority-highest, table.list tbody tr.even.priority-highest:hover {
+    color: #990000;
+    font-weight: bold;
+}
+tr.even.priority-highest {
+    background: #ffd566 none repeat scroll 0 0;
+}
+tr.priority-highest a, tr.priority-5:hover a {
+    color: #990000;
+}
+tr.odd.priority-highest td, tr.even.priority-highest td {
+    border-color: #ffb4b4;
+}
+tr.odd.priority-high2, table.list tbody tr.odd.priority-high4:hover {
+    color: #990000;
+}
+tr.odd.priority-high2 {
+    background: #ffd566 none repeat scroll 0 0;
+}
+
+tr.even.priority-high2, table.list tbody tr.even.priority-high4:hover {
+    color: #990000;
+}
+tr.even.priority-high2 {
+    background: #ffeab2 none repeat scroll 0 0;
+}
+tr.priority-high2 a {
+    color: #990000;
+}
+tr.odd.priority-high2 td, tr.even.priority-high4 td {
+    border-color: #ffb4b4;
+}
+tr.odd.priority-high3, table.list tbody tr.odd.priority-high3:hover {
+    color: #990000;
+}
+tr.odd.priority-high3 {
+    background: #ffeab2 none repeat scroll 0 0;
+}
+tr.even.priority-high3, table.list tbody tr.even.priority-high3:hover {
+    color: #990000;
+}
+tr.even.priority-high3 {
+    background: #fff8e5 none repeat scroll 0 0;
+}
+tr.priority-high3 a {
+    color: #990000;
+}
+tr.odd.priority-high3 td, tr.even.priority-high3 td {
+    border-color: #ffcccc;
+}
+tr.odd.priority-lowest, table.list tbody tr.odd.priority-lowest:hover {
+    color: #555599;
+}
+tr.odd.priority-lowest {
+    background: #d6f6f1 none repeat scroll 0 0;
+}
+tr.even.priority-lowest, table.list tbody tr.even.priority-lowest:hover {
+    color: #555599;
+}
+tr.even.priority-lowest {
+    background: #f1fcfa none repeat scroll 0 0;
+}
+tr.priority-lowest a {
+    color: #555599;
+}
+tr.odd.priority-lowest td, tr.even.priority-lowest td {
+    border-color: #add7f3;
+}
+
